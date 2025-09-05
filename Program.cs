@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Numerics;
 
 namespace primeCalculator;
 
@@ -11,7 +12,7 @@ public class Program
         do
         {
             Console.Write("\nEnter an integer to check for prime: ");
-            if (int.TryParse(Console.ReadLine()!.Trim(), out int myNumber))
+            if (BigInteger.TryParse(Console.ReadLine()!.Trim(), out BigInteger myNumber))
             {
                 stopwatch.Start();
                 bool isPrime = checkIfPrime(myNumber);
@@ -28,12 +29,13 @@ public class Program
         } while (true);
     }
 
-    static bool checkIfPrime(int n)
+    static bool checkIfPrime(BigInteger n)
     {
-        if (n <= 1) return false;
+        if (n < 2) return false;
         if (n == 2) return true;
         if (n % 2 == 0) return false;
-        for (int i = 3; i * i <= n; i += 2)
+
+        for (BigInteger i = 3; i * i <= n; i += 2)
         {
             if (n % i == 0) return false;
         }
