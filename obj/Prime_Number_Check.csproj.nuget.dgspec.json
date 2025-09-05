@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StephanieAchiengAgga\\OneDrive - Syncfusion\\gitexercise\\Prime_Number_Check\\Prime_Number_Check.csproj": {}
+    "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLAB\\Prime_Number_Check\\Prime_Number_Check.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StephanieAchiengAgga\\OneDrive - Syncfusion\\gitexercise\\Prime_Number_Check\\Prime_Number_Check.csproj": {
+    "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLAB\\Prime_Number_Check\\Prime_Number_Check.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StephanieAchiengAgga\\OneDrive - Syncfusion\\gitexercise\\Prime_Number_Check\\Prime_Number_Check.csproj",
+        "projectUniqueName": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLAB\\Prime_Number_Check\\Prime_Number_Check.csproj",
         "projectName": "Prime_Number_Check",
-        "projectPath": "C:\\Users\\StephanieAchiengAgga\\OneDrive - Syncfusion\\gitexercise\\Prime_Number_Check\\Prime_Number_Check.csproj",
-        "packagesPath": "C:\\Users\\StephanieAchiengAgga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StephanieAchiengAgga\\OneDrive - Syncfusion\\gitexercise\\Prime_Number_Check\\obj\\",
+        "projectPath": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLAB\\Prime_Number_Check\\Prime_Number_Check.csproj",
+        "packagesPath": "C:\\Users\\CollinsMakui\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLAB\\Prime_Number_Check\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\StephanieAchiengAgga\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\CollinsMakui\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

@@ -30,7 +30,19 @@ public class Program
 
     static bool checkIfPrime(int n)
     {
-        return true;
+        int count = 0;
+
+        for (int i = 2; i < n; i++)
+        {
+            if (n > 2 && n % i == 0)
+            {
+                count++;
+            }
+        }
+        if (count > 0 || n<2)
+            return false;
+        else
+            return true;
     }
 
 }
