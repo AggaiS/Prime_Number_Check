@@ -14,13 +14,13 @@ public class Program
             if (int.TryParse(Console.ReadLine()!.Trim(), out int myNumber))
             {
                 stopwatch.Start();
-                bool isPrime = checkIfPrime(myNumber);
+                bool isPrime = CheckIfPrime(myNumber);
                 stopwatch.Stop();
 
                 Console.WriteLine();
                 Console.WriteLine(isPrime ? $"{myNumber} is prime" : $"{myNumber} is not prime.");
                 Console.WriteLine($"Time take: {stopwatch.ElapsedMilliseconds} ms");
-                // return;
+                return;
             }
             else
                 Console.WriteLine($"\nInput is not a valid integer. Enter a valid one.");
@@ -28,8 +28,16 @@ public class Program
         } while (true);
     }
 
-    static bool checkIfPrime(int n)
+    static bool CheckIfPrime(int n)
     {
+        if (n < 2) return false;
+        if (n == 2) return true;
+        if (n % 2 == 0) return false;
+
+        for (int i = 3; i <= Math.Sqrt(n); i += 2)
+        {
+            if (n % i == 0) return false;
+        }
         return true;
     }
 
